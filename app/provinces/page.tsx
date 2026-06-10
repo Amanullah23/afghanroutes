@@ -3,6 +3,7 @@
 import { provinces } from "@/data/provinces";
 import ProvinceCard from "@/components/ui/ProvinceCard";
 
+
 export default function ProvincesPage() {
   return (
     <div className="min-h-screen bg-sand">

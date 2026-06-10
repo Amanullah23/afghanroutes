@@ -14,12 +14,10 @@ export default function HotelCard({ hotel, index = 0 }: HotelCardProps) {
   return (
     <motion.div
       initial={{ opacity: 0, y: 28 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-60px" }}
+      animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, delay: index * 0.1 }}
       className="group bg-white border border-sand-deep rounded-2xl overflow-hidden hover:-translate-y-1.5 hover:shadow-2xl hover:border-lapis-tint transition-all duration-300"
     >
-      {/* Image */}
       <div className="relative h-52 overflow-hidden bg-lapis">
         <div
           className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
@@ -30,7 +28,6 @@ export default function HotelCard({ hotel, index = 0 }: HotelCardProps) {
         </span>
       </div>
 
-      {/* Body */}
       <div className="p-5">
         <div className="flex items-center gap-1.5 text-lapis-light text-xs font-semibold tracking-wide uppercase mb-2">
           <MapPin size={12} />
