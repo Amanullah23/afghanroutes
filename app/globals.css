@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --lapis:         #0A3D4A;
+  --lapis-mid:     #155E70;
+  --lapis-light:   #1E8FA8;
+  --lapis-tint:    #C8E9EE;
+  --saffron:       #E8A020;
+  --saffron-light: #F5C55A;
+  --saffron-tint:  #FDF3D8;
+  --sand:          #F5EFE0;
+  --sand-deep:     #EDE4CE;
+  --forest:        #3A6B44;
+  --sage:          #5C6E5A;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--sand);
+  color: var(--lapis);
+  font-family: var(--font-inter), sans-serif;
+  overflow-x: hidden;
+}
+
+/* Smooth page transitions */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.3s;
+}
