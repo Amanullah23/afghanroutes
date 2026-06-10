@@ -16,15 +16,14 @@ export default function ProvinceCard({ province, large, index = 0 }: ProvinceCar
   return (
     <motion.div
       initial={{ opacity: 0, y: 28 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-60px" }}
+      animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, delay: index * 0.1 }}
     >
       <Link
         href={`/provinces/${province.slug}`}
         className={clsx(
           "group relative block rounded-2xl overflow-hidden bg-lapis cursor-pointer",
-          large ? "min-h-80" : "min-h-55"
+          large ? "min-h-[320px]" : "min-h-[220px]"
         )}
       >
         {/* Background image */}
@@ -34,7 +33,7 @@ export default function ProvinceCard({ province, large, index = 0 }: ProvinceCar
         />
 
         {/* Gradient overlay */}
-        <div className="absolute inset-0 bg-linear-to-t from-black/90 via-black/30 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
 
         {/* Arrow */}
         <div className="absolute top-5 right-5 w-9 h-9 rounded-full bg-white/10 flex items-center justify-center text-white transition-all duration-200 group-hover:bg-saffron group-hover:rotate-45">

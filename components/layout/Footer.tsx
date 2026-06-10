@@ -64,7 +64,7 @@ export default function Footer() {
         </div>
 
         <div className="pt-6 flex flex-col md:flex-row justify-between items-center gap-3">
-          <p className="text-xs text-lapis-tint/40">© 2025 AfghanRoutes.com — All rights reserved</p>
+          <p className="text-xs text-lapis-tint/40">© 2026 AfghanRoutes.com — All rights reserved</p>
           <div className="flex gap-4">
             <Link href="#" className="text-xs text-lapis-tint/40 hover:text-saffron-light transition-colors">English</Link>
             <Link href="#" className="text-xs text-lapis-tint/40 hover:text-saffron-light transition-colors">دری</Link>

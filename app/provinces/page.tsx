@@ -1,8 +1,7 @@
+"use client";
+
 import { provinces } from "@/data/provinces";
 import ProvinceCard from "@/components/ui/ProvinceCard";
-import SectionHeader from "@/components/ui/SectionHeader";
-
-export const metadata = { title: "All Provinces — AfghanRoutes" };
 
 export default function ProvincesPage() {
   return (
