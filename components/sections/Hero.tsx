@@ -77,7 +77,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-lapis overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center bg-lapis overflow-hidden pt-24">
       {/* Stars */}
       <canvas ref={canvasRef} className="absolute inset-0 w-full h-full pointer-events-none" />
 
@@ -88,7 +88,7 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
+      <div className="relative z-10 text-center px-6 max-w-4xl mx-auto pb-10">
         {/* Eyebrow */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -135,7 +135,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.9, duration: 0.8 }}
-          className="text-base md:text-lg text-lapis-tint/75 max-w-xl mx-auto leading-relaxed mb-11"
+          className="text-base md:text-lg text-lapis-tint/75 max-w-xl mx-auto leading-relaxed mb-5"
         >
           From the sapphire lakes of Bamiyan to the minarets of Herat — plan
           your journey across Afghanistan's 34 spectacular provinces.

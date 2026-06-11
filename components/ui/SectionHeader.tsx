@@ -11,12 +11,13 @@ export default function SectionHeader({ eyebrow, title, subtitle, centered }: Se
       <p className="text-xs font-semibold tracking-[0.14em] uppercase text-lapis-light mb-3">
         {eyebrow}
       </p>
+      {/* ✅ dangerouslySetInnerHTML already handles HTML strings like <br/> correctly */}
       <h2
-        className="font-playfair text-4xl md:text-5xl font-bold text-lapis leading-tight mb-4"
+        className="section-title font-playfair text-4xl md:text-5xl font-bold text-lapis leading-tight mb-4"
         dangerouslySetInnerHTML={{ __html: title }}
       />
       {subtitle && (
-        <p className="text-base text-sage leading-relaxed max-w-lg">
+        <p className="section-sub text-base text-sage leading-relaxed max-w-lg mx-auto">
           {subtitle}
         </p>
       )}

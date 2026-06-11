@@ -28,8 +28,11 @@ export default function WhyVisit() {
         <div className="[&_.section-title]:text-white [&_.section-sub]:text-lapis-tint/80">
           <SectionHeader
             eyebrow="Why Afghanistan"
+            // ✅ FIX: Keep as a plain string — SectionHeader uses dangerouslySetInnerHTML
+            // so <br/> renders as a real line break. No JSX fragment needed.
             title="The world's best-kept<br/>travel secret"
             subtitle="A land of extraordinary hospitality, ancient heritage, and landscapes that challenge every expectation."
+            centered
           />
         </div>
 
