@@ -13,7 +13,7 @@ export const attractions: Attraction[] = [
     description: "Six sapphire lakes suspended by natural travertine dams in the heart of the Hindu Kush.",
     longDescription: "Band-e-Amir is Afghanistan's first national park and one of the most breathtaking natural wonders in Central Asia. Six deep-blue lakes are separated by natural dams of travertine — mineral-rich water that has slowly hardened over centuries into towering white walls. The contrast between the electric-blue water, white cliffs, and rust-red mountains is unlike anything else on earth. Visiting at sunrise, when mist hovers over the still water, is an experience that stays with you forever.",
     highlights: ["Six interconnected lakes", "Travertine dam walls", "Sunrise boat tours", "Hiking trails", "Local fishermen villages", "Flamingo sightings in spring"],
-    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=900&q=80",
+    image: "images/band-amir.jpg",
     featured: true,
   },
   {
@@ -28,7 +28,7 @@ export const attractions: Attraction[] = [
     description: "The giant carved niches where the world's tallest standing Buddhas once stood — a symbol of Afghanistan's ancient Buddhist past.",
     longDescription: "Carved into the sandstone cliffs of Bamiyan in the 6th century AD, the two giant Buddha statues were among the most remarkable examples of Gandharan art in the world. Though the statues were destroyed in 2001, the towering niches that held them remain — monuments to the region's layered history as a crossroads of Buddhism, Islam, and the ancient Silk Road. Visitors can climb inside the cliff network via ancient staircases and explore caves that once housed thousands of monks.",
     highlights: ["55m and 38m cliff niches", "Ancient monk caves", "Cliff staircase exploration", "Kakrak Valley cave paintings", "On-site archaeology museum", "Silk Road history"],
-    image: "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=900&q=80",
+    image: "images/bameyan.png",
     featured: true,
   },
   {
@@ -43,7 +43,7 @@ export const attractions: Attraction[] = [
     description: "One of the finest mosques in the Islamic world — a living masterpiece of Timurid tilework and calligraphy.",
     longDescription: "The Masjid-i-Jami of Herat, also known as the Friday Mosque, is one of the oldest and most magnificent mosques in Afghanistan. Originally built in the 12th century and expanded under the Timurids, its courtyard is lined with some of the most exquisite Mosaic tilework in existence — deep cobalt blue, turquoise, and gold geometric patterns stretching across every surface. The mosque is still active today, and the sound of the call to prayer echoing across its vast courtyard at dusk is deeply moving.",
     highlights: ["12th-century original foundation", "Timurid mosaic tilework", "144 arched courtyard arcade", "Ancient Quranic inscriptions", "Active place of worship", "Adjacent bazaar"],
-    image: "https://images.unsplash.com/photo-1569428034239-f9565e32e224?w=900&q=80",
+    image: "images/herat.png",
     featured: true,
   },
   {
@@ -58,7 +58,7 @@ export const attractions: Attraction[] = [
     description: "The stunning Blue Mosque of Mazar-i-Sharif — one of the holiest and most beautiful sites in Afghanistan.",
     longDescription: "The Shrine of Hazrat Ali, known locally as the Blue Mosque, is the spiritual heart of northern Afghanistan. Its stunning blue and white tilework, towering minarets, and vast marble courtyard make it one of the most visually extraordinary buildings in Central Asia. The shrine is believed to be the burial place of Ali ibn Abi Talib, the cousin and son-in-law of the Prophet Muhammad, and draws pilgrims from across the region. Each spring during Nowruz, thousands gather here for the raising of the sacred standard.",
     highlights: ["Timurid blue tile facade", "Nowruz New Year festival", "White doves of the courtyard", "Marble prayer halls", "Ancient surrounding bazaar", "Pilgrimage site"],
-    image: "https://images.unsplash.com/photo-1590736704728-f4730bb30770?w=900&q=80",
+    image: "images/balkh.png",
     featured: true,
   },
   {
@@ -73,7 +73,7 @@ export const attractions: Attraction[] = [
     description: "The narrow finger of land stretching to China — home to Kyrgyz nomads, yak caravans, and the Little Pamir plateau.",
     longDescription: "The Wakhan Corridor is one of the most remote and spectacular places on earth — a narrow strip of land that stretches east between Tajikistan and Pakistan to touch the Chinese border. The landscape shifts from river valleys and ancient fortresses to vast high-altitude plateaus where Kyrgyz nomads still live in traditional yurts and travel by yak and horse. The Big and Little Pamir offer some of the finest trekking in Asia, with views of the Hindu Kush, Karakoram, and Pamir ranges all at once.",
     highlights: ["Little Pamir plateau", "Kyrgyz nomad camps", "Qila Panja fortress", "Marco Polo sheep", "Yak caravan routes", "Meeting point of four mountain ranges"],
-    image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=900&q=80",
+    image: "images/badakhshan.jpg",
     featured: true,
   },
   {
@@ -88,7 +88,7 @@ export const attractions: Attraction[] = [
     description: "A narrow green valley of emerald rivers, snow-capped peaks, and legendary mountain hospitality.",
     longDescription: "The Panjshir Valley — meaning 'Five Lions' — is one of Afghanistan's most iconic landscapes. The Panjshir River runs turquoise through a narrow gorge flanked by towering mountains that hold snow year-round. The valley is renowned for its warm and proud people, its emerald mines, and its extraordinary natural beauty. At the top of the valley, the Anjuman Pass opens onto a high plateau with views that stretch into Badakhshan. The tomb of Ahmad Shah Massoud, carved into the mountainside above the river, is a place of deep national significance.",
     highlights: ["Turquoise Panjshir River", "Anjuman Pass trek", "Ahmad Shah Massoud Tomb", "Emerald and gem mines", "Traditional village guesthouses", "Rock climbing routes"],
-    image: "https://images.unsplash.com/photo-1448375240586-882707db888b?w=900&q=80",
+    image: "images/panjshir.jpg",
     featured: true,
   },
   {
@@ -103,7 +103,7 @@ export const attractions: Attraction[] = [
     description: "The oldest surviving Mughal garden in the world — designed by Emperor Babur and his final resting place.",
     longDescription: "Bagh-e-Babur, or Babur's Gardens, is a historic walled garden on the slopes of Kabul — the oldest surviving example of a Mughal garden in the world. Laid out in the early 16th century by Zahir-ud-din Muhammad Babur, the founder of the Mughal Empire, the garden is his final resting place. Terraced gardens, marble pavilions, a restored caravanserai, and sweeping views over Kabul make this one of the most peaceful and historically rich places in the city. The Aga Khan Trust for Culture has beautifully restored it.",
     highlights: ["Tomb of Emperor Babur", "Terraced Mughal garden", "16th-century caravanserai", "Marble Queen's Palace pavilion", "Panoramic Kabul views", "Restored historic hammam"],
-    image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=900&q=80",
+    image: "images/kabul.png",
     featured: false,
   },
   {
@@ -118,7 +118,7 @@ export const attractions: Attraction[] = [
     description: "A soaring 12th-century minaret rising from a hidden river valley — one of the great architectural wonders of the medieval world.",
     longDescription: "Rising 65 metres from the floor of a remote river gorge in Ghor province, the Minaret of Jam is one of the most extraordinary architectural achievements of the medieval Islamic world. Built in the 12th century by the Ghurid dynasty, its entire surface is covered in intricate geometric brickwork, turquoise tile inscriptions, and Quranic calligraphy. So remote is its location — accessible only by a long journey through mountain tracks — that it was not documented by Western scholars until 1957. It stands as proof that even in the most isolated valleys, Afghan civilization produced works of astonishing refinement.",
     highlights: ["65-metre Ghurid minaret", "12th-century geometric brickwork", "Turquoise Kufic inscriptions", "Remote river gorge setting", "UNESCO World Heritage Site", "Nearby Ghurid ruins"],
-    image: "https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=900&q=80",
+    image: "images/munar-jam.jpg",
     featured: false,
   },
   {
@@ -133,7 +133,7 @@ export const attractions: Attraction[] = [
     description: "The world's finest lapis lazuli has been mined from these same mountains for over 6,000 years.",
     longDescription: "The lapis lazuli mines of Sar-e-Sang in Badakhshan's Kokcha River valley are the most important source of lapis in the world — and have been for over six millennia. The deep-blue stone mined here colored the robes of Egyptian pharaohs, the skies in Renaissance paintings, and the tiles of the world's greatest mosques. Today, miners still extract lapis using methods that have changed little in centuries. Visiting the mines offers a journey into one of the oldest continuous human industries on earth, set against the dramatic backdrop of the Hindu Kush.",
     highlights: ["6,000-year mining history", "Deepest blue lapis in the world", "Traditional mining methods", "Kokcha River valley trek", "Local gem market in Fayzabad", "Ancient trade route history"],
-    image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=900&q=80",
+    image: "images/badakhshan.jpg",
     featured: false,
   },
 ];
