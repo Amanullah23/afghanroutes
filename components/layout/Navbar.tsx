@@ -10,6 +10,7 @@ const links = [
   { href: "/provinces", label: "Provinces" },
   { href: "/hotels",    label: "Hotels" },
   { href: "/#why",      label: "Why visit" },
+  { href: "/visa-guide", label: "Visa Guide" },
   { href: "/planner",   label: "Trip planner" },
 ];
 

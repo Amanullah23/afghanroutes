@@ -60,14 +60,14 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                {/* ❌ /plan-trip — not yet created */}
-                <Link href="#" className="text-sm text-lapis-tint/70 hover:text-saffron-light transition-colors">
+                {/* ✅ /plan-trip — added */}
+                <Link href="/planner" className="text-sm text-lapis-tint/70 hover:text-saffron-light transition-colors">
                   Trip Planner
                 </Link>
               </li>
               <li>
-                {/* ❌ /map — not yet created */}
-                <Link href="#" className="text-sm text-lapis-tint/70 hover:text-saffron-light transition-colors">
+                {/* ✅ /map — added */}
+                <Link href="/map" className="text-sm text-lapis-tint/70 hover:text-saffron-light transition-colors">
                   Travel Map
                 </Link>
               </li>
@@ -79,8 +79,8 @@ export default function Footer() {
             <p className="text-xs font-semibold tracking-widest text-lapis-tint/50 uppercase mb-5">Travel Info</p>
             <ul className="space-y-3">
               <li>
-                {/* ❌ /visa-guide — not yet created */}
-                <Link href="#" className="text-sm text-lapis-tint/70 hover:text-saffron-light transition-colors">
+                {/* ✅ /visa-guide — added */}
+                <Link href="/visa-guide" className="text-sm text-lapis-tint/70 hover:text-saffron-light transition-colors">
                   Visa Guide
                 </Link>
               </li>
