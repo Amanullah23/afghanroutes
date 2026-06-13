@@ -28,3 +28,19 @@ export interface Hotel {
 export interface Highlight {
   label: string;
 }
+
+export interface Attraction {
+  id: string;
+  name: string;
+  slug: string;
+  province: string;
+  provinceSlug: string;
+  region: "north" | "south" | "east" | "west" | "central";
+  category: "nature" | "history" | "culture" | "adventure" | "religious";
+  tag: string;
+  description: string;
+  longDescription: string;
+  highlights: string[];
+  image: string;
+  featured: boolean;
+}
