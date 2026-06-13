@@ -9,9 +9,9 @@ import clsx from "clsx";
 const links = [
   { href: "/provinces", label: "Provinces" },
   { href: "/hotels",    label: "Hotels" },
-  { href: "/#why",      label: "Why visit" },
+  { href: "/#why",      label: "Why Visit" },
   { href: "/visa-guide", label: "Visa Guide" },
-  { href: "/planner",   label: "Trip planner" },
+  { href: "/planner",   label: "Trip Planner" },
 ];
 
 export default function Navbar() {

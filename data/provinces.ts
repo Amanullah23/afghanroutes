@@ -10,7 +10,7 @@ export const provinces: Province[] = [
     description: "Ancient Buddhas, Band-e-Amir's sapphire lakes & the roof of the Hindu Kush",
     longDescription: "Bamiyan is one of Afghanistan's most breathtaking provinces — home to the famous giant Buddha niches, the stunning turquoise lakes of Band-e-Amir (the country's first national park), and some of the most dramatic mountain scenery in all of Central Asia.",
     highlights: ["Band-e-Amir National Park", "Buddha Niches", "Shahr-e-Gholghola", "Kakrak Valley"],
-    image: "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=900&q=80",
+    image: "/images/bameyan.png",
     featured: true,
   },
   {
@@ -22,7 +22,7 @@ export const provinces: Province[] = [
     description: "Mosques, bazaars & saffron fields of the ancient Silk Road",
     longDescription: "Herat is Afghanistan's third-largest city and one of the most culturally rich in Central Asia. Famous for its magnificent Friday Mosque, ancient citadel, and thriving arts scene, Herat was once a crown jewel of the Timurid dynasty.",
     highlights: ["Friday Mosque", "Herat Citadel", "Musalla Complex", "Saffron Fields"],
-    image: "https://images.unsplash.com/photo-1569428034239-f9565e32e224?w=600&q=80",
+    image: "/images/herat.png",
     featured: true,
   },
   {
@@ -34,7 +34,7 @@ export const provinces: Province[] = [
     description: "Museums, bazaars & gardens of the Afghan capital",
     longDescription: "Kabul, Afghanistan's capital and largest city, sits in a high mountain valley at 1,800 meters. It blends ancient history with a resilient modern spirit — from the National Museum to the stunning Babur's Gardens built by the first Mughal emperor.",
     highlights: ["Babur's Gardens", "Kabul National Museum", "Chicken Street Bazaar", "Darul Aman Palace"],
-    image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&q=80",
+    image: "/images/kabul.png",
     featured: true,
   },
   {
@@ -46,7 +46,7 @@ export const provinces: Province[] = [
     description: "Birthplace of Rumi & home to Mazar-i-Sharif's Blue Mosque",
     longDescription: "Balkh is one of the oldest cities in the world — known as the 'Mother of Cities'. It is the birthplace of the poet Rumi and home to the stunning Blue Mosque of Mazar-i-Sharif, one of the holiest sites in Afghanistan.",
     highlights: ["Blue Mosque of Mazar", "Old City of Balkh", "Shrine of Hazrat Ali", "Nawbahar Temple ruins"],
-    image: "https://images.unsplash.com/photo-1590736704728-f4730bb30770?w=600&q=80",
+    image: "/images/balkh.png",
     featured: true,
   },
   {
@@ -58,7 +58,7 @@ export const provinces: Province[] = [
     description: "Emerald rivers carving through dramatic mountain walls",
     longDescription: "The Panjshir Valley is one of Afghanistan's most iconic landscapes — a narrow green valley carved by the Panjshir River, flanked by towering snow-capped peaks. The valley is known for its warm, welcoming people and dramatic scenery.",
     highlights: ["Panjshir River", "Ahmad Shah Massoud Tomb", "Anjuman Pass", "Panjshir Emerald Mines"],
-    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
+    image: "/images/panjshir.jpg",
     featured: true,
   },
   {
@@ -70,7 +70,7 @@ export const provinces: Province[] = [
     description: "Lapis lazuli mines, the Wakhan Corridor & Pamir mountains",
     longDescription: "Badakhshan is Afghanistan's northeastern frontier — one of the most remote and stunningly beautiful provinces. Home to the famous lapis lazuli mines (the finest in the world), the spectacular Wakhan Corridor, and the Little Pamir.",
     highlights: ["Wakhan Corridor", "Lapis Lazuli Mines", "Qila Panja", "Little Pamir"],
-    image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=80",
+    image: "/images/badakhshan.jpg",
     featured: true,
   },
   {
@@ -82,7 +82,7 @@ export const provinces: Province[] = [
     description: "Pomegranate gardens, ancient shrines & desert landscapes",
     longDescription: "Kandahar is Afghanistan's second-largest city and the heartland of Pashtun culture. Famous for its pomegranates (considered the world's finest), the Shrine of the Cloak, and the ancient city of Old Kandahar.",
     highlights: ["Shrine of the Cloak", "Pomegranate Gardens", "Chilzina Rock", "Old Kandahar"],
-    image: "https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=600&q=80",
+    image: "/images/kandahar.jpg",
     featured: false,
   },
   {
@@ -94,7 +94,7 @@ export const provinces: Province[] = [
     description: "Dense cedar forests, remote mountain villages & unique culture",
     longDescription: "Nuristan is one of Afghanistan's most isolated and uniquely beautiful provinces — a land of cedar and oak forests, roaring rivers, and ancient wooden architecture unlike anywhere else in the country.",
     highlights: ["Cedar Forests", "Parun Valley", "Traditional wooden architecture", "Landai River"],
-    image: "https://images.unsplash.com/photo-1448375240586-882707db888b?w=600&q=80",
+    image: "/images/nuristan.jpg",
     featured: false,
   },
 ];
