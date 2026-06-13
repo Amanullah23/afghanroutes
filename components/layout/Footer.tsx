@@ -2,23 +2,23 @@ import Link from "next/link";
 
 // ── Explore ──────────────────────────────────────────
 // /provinces        ✅ created
-// /attractions      ❌ not yet created
+// /attractions      ✅ created
 // /hotels           ✅ created
-// /plan-trip        ❌ not yet created
-// /map              ❌ not yet created
+// /plan-trip        ✅ created
+// /map              ✅ created
 
 // ── Travel Info ──────────────────────────────────────
-// /visa-guide       ❌ not yet created
-// /safety-tips      ❌ not yet created
-// /currency         ❌ not yet created
-// /best-seasons     ❌ not yet created
-// /transport        ❌ not yet created
+// /visa-guide       ✅ created
+// /safety-tips      ✅ created
+// /currency         ✅ created
+// /best-seasons     ✅ created
+// /transport        ✅ created
 
 // ── About ────────────────────────────────────────────
-// /about#mission    ❌ not yet created
-// /contact          ❌ not yet created
-// /partner          ❌ not yet created
-// /advertise        ❌ not yet created
+// /about#mission    ✅ created
+// /contact          ✅ created
+// /partner          ✅ created
+// /advertise        ✅ created
 
 export default function Footer() {
   return (
@@ -116,26 +116,26 @@ export default function Footer() {
             <p className="text-xs font-semibold tracking-widest text-lapis-tint/50 uppercase mb-5">About</p>
             <ul className="space-y-3">
               <li>
-                {/* ❌ /about#mission — not yet created */}
+                {/* ✅ /about#mission — added */}
                 <Link href="/about#mission" className="text-sm text-lapis-tint/70 hover:text-saffron-light transition-colors">
                   Our Mission
                 </Link>
               </li>
               <li>
-                {/* ❌ /contact — not yet created */}
+                {/* ✅ /contact — added */}
                 <Link href="/about#developer" className="text-sm text-lapis-tint/70 hover:text-saffron-light transition-colors">
                   Contact Us
                 </Link>
               </li>
               <li>
-                {/* ❌ /partner — not yet created */}
+                {/* ✅ /partner — added */}
                 <Link href="/about#partner" className="text-sm text-lapis-tint/70 hover:text-saffron-light transition-colors">
                   Partner With Us
                 </Link>
               </li>
               <li>
-                {/* ❌ /advertise — not yet created */}
-                <Link href="#" className="text-sm text-lapis-tint/70 hover:text-saffron-light transition-colors">
+                {/* ✅ /advertise — added */}
+                <Link href="/advertise" className="text-sm text-lapis-tint/70 hover:text-saffron-light transition-colors">
                   Advertise
                 </Link>
               </li>
