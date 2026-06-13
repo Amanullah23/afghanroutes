@@ -91,8 +91,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                {/* ❌ /currency — not yet created */}
-                <Link href="#" className="text-sm text-lapis-tint/70 hover:text-saffron-light transition-colors">
+                {/* ✅ /currency — added */}
+                <Link href="/currency" className="text-sm text-lapis-tint/70 hover:text-saffron-light transition-colors">
                   Currency Info
                 </Link>
               </li>
