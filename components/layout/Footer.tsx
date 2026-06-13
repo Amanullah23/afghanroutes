@@ -117,19 +117,19 @@ export default function Footer() {
             <ul className="space-y-3">
               <li>
                 {/* ❌ /about#mission — not yet created */}
-                <Link href="#" className="text-sm text-lapis-tint/70 hover:text-saffron-light transition-colors">
+                <Link href="/about#mission" className="text-sm text-lapis-tint/70 hover:text-saffron-light transition-colors">
                   Our Mission
                 </Link>
               </li>
               <li>
                 {/* ❌ /contact — not yet created */}
-                <Link href="#" className="text-sm text-lapis-tint/70 hover:text-saffron-light transition-colors">
+                <Link href="/about#developer" className="text-sm text-lapis-tint/70 hover:text-saffron-light transition-colors">
                   Contact Us
                 </Link>
               </li>
               <li>
                 {/* ❌ /partner — not yet created */}
-                <Link href="#" className="text-sm text-lapis-tint/70 hover:text-saffron-light transition-colors">
+                <Link href="/about#partner" className="text-sm text-lapis-tint/70 hover:text-saffron-light transition-colors">
                   Partner With Us
                 </Link>
               </li>
